@@ -1,5 +1,5 @@
 from fastapi import APIRouter, UploadFile, File
-from app.utils.gemini import analyze_image
+from utils.gemini import analyze_image
 import base64
 
 router = APIRouter()
