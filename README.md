@@ -14,34 +14,6 @@ A web-based Open Source Intelligence (OSINT) Reconnaissance tool that scans doma
 
 ---
 
-## 📁 Project Structure
-
-osint-recon-bot/
-│
-├── frontend/ # React frontend (Vite)
-│ ├── src/
-│ ├── public/
-│ └── vite.config.ts
-│
-├── app/ # FastAPI backend
-│ ├── routes/
-│ │ ├── scan.py
-│ │ └── upload.py
-│ ├── models/
-│ │ └── schemas.py
-│ ├── utils/
-│ │ └── report_generator.py
-│ ├── main.py
-│ └── requirements.txt
-│
-└── README.md
-
-yaml
-Copy
-Edit
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer     | Tech                      |
