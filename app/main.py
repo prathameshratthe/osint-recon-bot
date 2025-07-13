@@ -4,7 +4,7 @@ from fastapi.responses import FileResponse
 from fastapi.middleware.cors import CORSMiddleware
 import os
 
-from app.routes import scan, upload
+from routes import scan, upload
 
 app = FastAPI()
 
