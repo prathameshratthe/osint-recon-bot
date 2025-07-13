@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from app.models.schemas import ScanRequest
+from models.schemas import ScanRequest
 from app.services.osint import fetch_crtsh, fetch_whois
 from app.utils.gemini import summarize_osint
 
